@@ -4,7 +4,7 @@ function randomMs(minMs, maxMs) {
 
 function setupLeaveRejoin(bot, createBot) {
     // Timers
-    let leaveTimer = 1000000000000000000000
+    let leaveTimer = 1000000000000000000000  
     let jumpTimer = null
     let jumpOffTimer = null
     let reconnectTimer = null
